@@ -5,9 +5,16 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import { useLanguage } from './i18n';
 
 function App() {
   const currentYear = new Date().getFullYear();
+  const { language } = useLanguage();
+
+  const footerCopy = {
+    pl: `© ${currentYear} Nikita Parkovskyi. Uczę się programować w Go, C i Pythonie.`,
+    en: `© ${currentYear} Nikita Parkovskyi. I am learning to program in Go, C, and Python.`,
+  };
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900">
@@ -21,7 +28,7 @@ function App() {
       </main>
       <footer className="bg-slate-900 text-slate-200 py-8">
         <div className="max-w-5xl mx-auto flex flex-col gap-3 px-4 text-sm md:flex-row md:items-center md:justify-between">
-          <p>© {currentYear} Nikita Parkovskyi. Uczę się programować w Go, C i Pythonie.</p>
+          <p>{footerCopy[language]}</p>
           <a
             href="mailto:nikitaparkovskyi@gmail.com"
             className="text-sky-300 hover:text-sky-200 transition-colors"
