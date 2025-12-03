@@ -17,6 +17,14 @@ const content = {
           'Samodzielnie zbudowałem CRUD w Go, dzięki czemu lepiej rozumiem routing i walidację danych. WebSocket dodałem jako eksperyment z komunikacją w czasie rzeczywistym.',
         link: 'https://github.com/K1taSun/Task_Project_Manager',
       },
+      {name: 'Inteligentny System Bezpieczeństwa Dla Domu',
+        summary:
+          'Kompleksowy system alarmowy DIY łączący Arduino, Raspberry Pi i chmurę. Arduino monitoruje czujniki i komunikuje się z RPi, które w razie alarmu nagrywa wideo, wysyła je na Google Drive i powiadamia mailowo. Całość obsługiwana jest przez aplikację we Flutterze.',
+        stack: ['Flutter', 'Dart', 'Python', 'C++ (Arduino)', 'Raspberry Pi', 'Google Drive API', 'UART/Serial', 'SMTP'],
+        contribution:
+          'Zintegrowałem komunikację szeregową między mikrokontrolerem a jednostką centralną oraz zautomatyzowałem proces uploadu wideo do chmury Google. Stworzyłem aplikację mobilną z bezpieczną autoryzacją (OAuth) do zdalnego przeglądania nagrań.',
+        link: 'https://github.com/K1taSun/Inteligentny_System_Biezpieczenstwa_Dla_Domu',
+      },
       {
         name: 'Buffer – macOS Clipboard Manager',
         summary:
