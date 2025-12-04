@@ -9,6 +9,15 @@ const content = {
       'Te repozytoria pokazują, jak krok po kroku poznaję nowe technologie. Zapisuję najważniejsze lekcje i zostawiam komentarze, żeby inni mogli zobaczyć mój sposób myślenia.',
     projects: [
       {
+        name: 'GoEdge Gateway',
+        summary:
+          'Lekka, wysokowydajna brama brzegowa IoT napisana w Go. Działa jako most między siecią czujników MQTT a trwałym magazynem danych, udostępniając solidne API gRPC.',
+        stack: ['Golang', 'gRPC', 'Protobuf', 'PostgreSQL', 'MQTT (Mosquitto)', 'Docker'],
+        contribution:
+          'Zaprojektowałem modułową architekturę mikroserwisów oddzielającą pobieranie danych od ich zapisu. Zaimplementowałem wydajną serializację danych (Protocol Buffers) i zoptymalizowałem operacje na bazie danych (batch processing).',
+        link: 'https://github.com/k1tasun/GoEdge-Gateway',
+      },
+      {
         name: 'Task Project Manager',
         summary:
           'Prosty menedżer zadań tworzony, by ćwiczyć Go i pracę z REST API. Dane przechowywane są w plikach JSON, a interfejs napisałem w czystym JS.',
@@ -17,7 +26,8 @@ const content = {
           'Samodzielnie zbudowałem CRUD w Go, dzięki czemu lepiej rozumiem routing i walidację danych. WebSocket dodałem jako eksperyment z komunikacją w czasie rzeczywistym.',
         link: 'https://github.com/K1taSun/Task_Project_Manager',
       },
-      {name: 'Inteligentny System Bezpieczeństwa Dla Domu',
+      {
+        name: 'Inteligentny System Bezpieczeństwa Dla Domu',
         summary:
           'Kompleksowy system alarmowy DIY łączący Arduino, Raspberry Pi i chmurę. Arduino monitoruje czujniki i komunikuje się z RPi, które w razie alarmu nagrywa wideo, wysyła je na Google Drive i powiadamia mailowo. Całość obsługiwana jest przez aplikację we Flutterze.',
         stack: ['Flutter', 'Dart', 'Python', 'C++ (Arduino)', 'Raspberry Pi', 'Google Drive API', 'UART/Serial', 'SMTP'],
@@ -44,6 +54,15 @@ const content = {
     description:
       'These repositories show how I explore new technologies step by step. I note the key lessons and leave comments so others can follow my thinking process.',
     projects: [
+     {
+        name: 'GoEdge Gateway',
+        summary:
+          'A lightweight, high-performance IoT edge gateway written in Go. It acts as a bridge between MQTT sensor networks and persistent storage, providing a robust gRPC API for data access.',
+        stack: ['Golang', 'gRPC', 'Protobuf', 'PostgreSQL', 'MQTT (Mosquitto)', 'Docker'],
+        contribution:
+          'I designed a modular microservices architecture to separate MQTT ingestion from data storage. I implemented efficient data serialization using Protocol Buffers and optimized database performance with batch processing operations.',
+        link: 'https://github.com/k1tasun/GoEdge-Gateway',
+      },
       {
         name: 'Task Project Manager',
         summary:
@@ -52,6 +71,15 @@ const content = {
         contribution:
           'Building the CRUD in Go helped me understand routing and validation. I added WebSocket support as an experiment with real-time updates.',
         link: 'https://github.com/K1taSun/Task_Project_Manager',
+      },
+      {
+        name: 'Smart Home Security System',
+        summary:
+          'A comprehensive DIY alarm system connecting Arduino, Raspberry Pi, and the cloud. Arduino monitors sensors and communicates with RPi, which records video during alarms, uploads it to Google Drive, and sends email notifications. Controlled via a Flutter app.',
+        stack: ['Flutter', 'Dart', 'Python', 'C++ (Arduino)', 'Raspberry Pi', 'Google Drive API', 'UART/Serial', 'SMTP'],
+        contribution:
+          'I integrated serial communication between the microcontroller and the central unit and automated video uploads to Google Cloud. I created a mobile app with secure authentication (OAuth) for remote footage viewing.',
+        link: 'https://github.com/K1taSun/Inteligentny_System_Biezpieczenstwa_Dla_Domu',
       },
       {
         name: 'Buffer – macOS Clipboard Manager',
