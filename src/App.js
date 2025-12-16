@@ -12,8 +12,8 @@ function App() {
   const { language } = useLanguage();
 
   const footerCopy = {
-    pl: `© ${currentYear} Nikita Parkovskyi. Uczę się programować w Go, C i Pythonie.`,
-    en: `© ${currentYear} Nikita Parkovskyi. I am learning to program in Go, C, and Python.`,
+    pl: `© ${currentYear} Nikita Parkovskyi. Uczę się programować w Go, C++ i Pythonie.`,
+    en: `© ${currentYear} Nikita Parkovskyi. I am learning to program in Go, C++, and Python.`,
   };
 
   return (

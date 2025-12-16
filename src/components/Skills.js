@@ -4,7 +4,7 @@ import { useLanguage } from '../i18n';
 const content = {
   pl: {
     kicker: 'Czego się uczę',
-    heading: 'Utrwalam podstawy programowania w Go, Pythonie i C.',
+    heading: 'Utrwalam podstawy programowania w Go, Pythonie i C++.',
     description:
       'Zamiast wielkich projektów stawiam na systematyczne ćwiczenia: małe skrypty, powtarzanie wzorców i analizę błędów. Z czasem chcę łączyć te umiejętności w większych zadaniach backendowych.',
     groups: [
@@ -29,12 +29,12 @@ const content = {
         ],
       },
       {
-        title: 'C — fundamenty systemowe',
+        title: 'C++ — fundamenty systemowe',
         skills: [
-          'operacje na wskaźnikach i tablicach',
-          'modułowe budowanie aplikacji w terminalu',
-          'makefile i gcc, debugowanie w gdb',
-          'proste struktury danych w pamięci',
+          'wskaźniki, referencje i tablice',
+          'programowanie obiektowe i modułowe',
+          'makefile i g++, debugowanie w gdb',
+          'klasy i struktury danych',
           'ćwiczenia z pisania bibliotek statycznych',
         ],
       },
@@ -54,7 +54,7 @@ const content = {
   },
   en: {
     kicker: 'What I am learning',
-    heading: 'I am strengthening the basics of Go, Python, and C.',
+    heading: 'I am strengthening the basics of Go, Python, and C++.',
     description:
       'Instead of huge projects I focus on steady practice: small scripts, repeating patterns, and reviewing mistakes. Step by step I want to combine these skills into larger backend tasks.',
     groups: [
@@ -79,12 +79,12 @@ const content = {
         ],
       },
       {
-        title: 'C — systems fundamentals',
+        title: 'C++ — systems fundamentals',
         skills: [
-          'pointer and array exercises',
-          'modular terminal applications',
-          'makefile and gcc, debugging with gdb',
-          'simple in-memory data structures',
+          'pointers, references, and arrays',
+          'object-oriented and modular programming',
+          'makefile and g++, debugging with gdb',
+          'classes and data structures',
           'practice building static libraries',
         ],
       },

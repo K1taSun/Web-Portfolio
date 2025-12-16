@@ -4,9 +4,9 @@ import { useLanguage } from '../i18n';
 const content = {
   pl: {
     kicker: 'Kim jestem',
-    heading: 'Zaczynam przygodę z programowaniem w Go, C i Pythonie.',
+    heading: 'Zaczynam przygodę z programowaniem w Go, C++ i Pythonie.',
     intro:
-      'Każdego dnia uczę się czegoś nowego: od zarządzania pamięcią w C, przez budowanie małych serwisów w Go, po automatyzację w Pythonie. Moim celem jest zdobywanie praktyki krok po kroku i dzielenie się tym, czego się nauczyłem.',
+      'Każdego dnia uczę się czegoś nowego: od zarządzania pamięcią i klasami w C++, przez budowanie małych serwisów w Go, po automatyzację w Pythonie. Moim celem jest zdobywanie praktyki krok po kroku i dzielenie się tym, czego się nauczyłem.',
     highlights: [
       {
         title: 'Podstawy backendu w Go',
@@ -19,9 +19,9 @@ const content = {
           'Buduję małe narzędzia CLI do przetwarzania plików, ćwiczę pracę z API i bibliotekami standardowymi oraz uczę się dobrej organizacji projektu.',
       },
       {
-        title: 'Systemowe ABC w C',
+        title: 'Systemowe ABC w C++',
         description:
-          'Poznaję wskaźniki, zarządzanie pamięcią i kompilację. Piszę proste moduły działające w terminalu, żeby zrozumieć niskopoziomowe mechanizmy.',
+          'Poznaję wskaźniki, referencje, zarządzanie pamięcią i programowanie obiektowe. Piszę proste moduły, żeby zrozumieć niskopoziomowe mechanizmy.',
       },
     ],
     learningTitle: 'Jak się uczę',
@@ -33,9 +33,9 @@ const content = {
   },
   en: {
     kicker: 'About me',
-    heading: 'I am just starting to code in Go, C, and Python.',
+    heading: 'I am just starting to code in Go, C++, and Python.',
     intro:
-      'Every day I learn something new: memory management in C, building small services in Go, or automating tasks with Python. My goal is to gain hands-on practice step by step and share what I discover.',
+      'Every day I learn something new: memory management and OOP in C++, building small services in Go, or automating tasks with Python. My goal is to gain hands-on practice step by step and share what I discover.',
     highlights: [
       {
         title: 'Go backend basics',
@@ -48,9 +48,9 @@ const content = {
           'I create small CLI tools to process files, practice working with APIs and the standard library, and learn how to structure a project clearly.',
       },
       {
-        title: 'Systems fundamentals in C',
+        title: 'Systems fundamentals in C++',
         description:
-          'I explore pointers, memory management, and compilation. I write small terminal modules to understand low-level mechanisms.',
+          'I explore pointers, references, memory management, and object-oriented programming. I write small terminal modules to understand low-level mechanisms.',
       },
     ],
     learningTitle: 'How I learn',

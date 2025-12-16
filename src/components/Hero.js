@@ -3,20 +3,20 @@ import { useLanguage } from '../i18n';
 
 const content = {
   pl: {
-    intro: 'Uczę się: Golang • C • Python',
+    intro: 'Uczę się: Golang • C++ • Python',
     heading: 'Cześć! Jestem Nikita Parkovskyi',
     highlight: 'i stawiam pierwsze kroki jako programista backendu i systemów.',
     description:
-      'Poznaję podstawy Go, C i Pythona: tworzę proste API, ćwiczę pracę z pamięcią w C i automatyzuję zadania w Pythonie. Każdy mały projekt traktuję jak okazję do nauki narzędzi i dobrych praktyk.',
+      'Poznaję podstawy Go, C++ i Pythona: tworzę proste API, ćwiczę pracę z pamięcią i obiektami w C++ i automatyzuję zadania w Pythonie. Każdy mały projekt traktuję jak okazję do nauki narzędzi i dobrych praktyk.',
     primaryCta: 'Zobacz projekty',
     secondaryCta: 'Nawiążmy kontakt',
   },
   en: {
-    intro: 'Learning: Golang • C • Python',
+    intro: 'Learning: Golang • C++ • Python',
     heading: 'Hi! I’m Nikita Parkovskyi',
     highlight: 'and I am starting my journey as a backend and systems developer.',
     description:
-      'I am learning the basics of Go, C, and Python: building simple APIs, practicing memory management in C, and automating tasks with Python. Every small project is a chance to practice tools and good habits.',
+      'I am learning the basics of Go, C++, and Python: building simple APIs, practicing memory management and OOP in C++, and automating tasks with Python. Every small project is a chance to practice tools and good habits.',
     primaryCta: 'View projects',
     secondaryCta: 'Let’s connect',
   },

@@ -12,7 +12,7 @@ const content = {
     kicker: 'Kontakt',
     heading: 'Porozmawiajmy o zadaniach dla początkującego programisty.',
     description:
-      'Szukam pierwszych zleceń i okazji do współpracy, żeby pod okiem bardziej doświadczonych osób rozwijać się w Go, C i Pythonie. Chętnie podejmę się prostych zadań backendowych lub automatyzacji i przyjmę każdą porcję feedbacku.',
+      'Szukam pierwszych zleceń i okazji do współpracy, żeby pod okiem bardziej doświadczonych osób rozwijać się w Go, C++ i Pythonie. Chętnie podejmę się prostych zadań backendowych lub automatyzacji i przyjmę każdą porcję feedbacku.',
     emailTitle: 'Napisz maila',
     emailNote: 'Napisz, z jakim zadaniem mogę spróbować się zmierzyć — odpiszę możliwie szybko.',
     locationTitle: 'Jestem z Krakowa',
@@ -26,7 +26,7 @@ const content = {
     kicker: 'Contact',
     heading: 'Let’s talk about beginner-friendly tasks.',
     description:
-      'I am looking for first assignments and collaboration opportunities to learn from more experienced developers in Go, C, and Python. I am happy to take on small backend or automation tasks and I appreciate any feedback.',
+      'I am looking for first assignments and collaboration opportunities to learn from more experienced developers in Go, C++, and Python. I am happy to take on small backend or automation tasks and I appreciate any feedback.',
     emailTitle: 'Send an email',
     emailNote: 'Let me know what task I could try to tackle — I will reply as soon as I can.',
     locationTitle: 'Based in Kraków',
